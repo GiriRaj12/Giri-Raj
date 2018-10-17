@@ -20,7 +20,10 @@ public class Project {
             if(count==1){
                 break;
             }
+            if(count==0){
+                System.out.println("unique");
+            }
         }
-   }
+    }
 
 }
