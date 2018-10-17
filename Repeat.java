@@ -12,12 +12,18 @@ public class Project {
         for(int i=0;i<n;i++){
             b[a[i]]++;
         }
+        int count=0;
         for(int i=0;i<10;i++){
             if(b[i]==1){
+                count++;
                 System.out.print(i+" ");
             }
+        }
+        if(count==0){
+            System.out.print("Invalid Input");
         }
 
     }
 
 }
+
