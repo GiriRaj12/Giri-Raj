@@ -1,3 +1,4 @@
+//This program is used to find the Train Seat allcation with the Seat number.
 import java.util.*;
 import java.lang.annotation.*;
 public class Project {
