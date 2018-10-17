@@ -8,10 +8,15 @@ public class Project {
         for(int i=0;i<n;i++){
             a[i]=in.nextInt();
         }
+        int count=0;
         for(int i=0;i<n;i++){
             if(a[i]==i){
+                count++;
                 System.out.print(a[i]);
             }
+        }
+        if(count==0){
+            System.out.print(-1);
         }
        
     }
