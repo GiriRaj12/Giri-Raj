@@ -12,7 +12,7 @@ public class Project {
         for(int i=0;i<n;i++){
             if(a[i]==i){
                 count++;
-                System.out.print(a[i]);
+                System.out.print(a[i]+" ");
             }
         }
         if(count==0){
