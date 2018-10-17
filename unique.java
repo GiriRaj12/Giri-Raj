@@ -21,7 +21,7 @@ public class Project {
             }
         }
         if(count==0){
-            System.out.print("Invalid Input")
+            System.out.print("unique");
         }
 
     }
