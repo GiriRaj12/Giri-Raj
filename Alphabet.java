@@ -7,7 +7,12 @@ public class Project {
         s=in.next();
         int count=1;
         for(int i=0;i<s.length()-1;i++){
+            if(Integer.parseInt(s.substring(i,i+1))==0){
+                System.out.println(s.substring(i,i+1));
+                continue;
+            }
                 if(Integer.parseInt(s.substring(i,i+2))<=26) {
+                System.out.println(s.substring(i,i+2));
                     count++;
                 }
         }
